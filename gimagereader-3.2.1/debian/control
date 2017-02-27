@@ -1,0 +1,42 @@
+Source: gimagereader
+Section: graphics
+Priority: optional
+Maintainer: Kerim Ölçer <kerimlcr@gmail.com>
+Build-Depends:
+ cmake,
+ debhelper (>= 10),
+ intltool (>= 0.35.0),
+ libcairomm-1.0-dev,
+ libgtkmm-3.0-dev,
+ libgtksourceviewmm-3.0-dev,
+ libgtkspellmm-3.0-dev (>= 3.0.4),
+ libjpeg-dev,
+ libjson-glib-dev,
+ libpangomm-1.4-dev,
+ libpodofo-dev,
+ libpoppler-glib-dev,
+ libsane-dev,
+ libtesseract-dev,
+ libxml++2.6-dev,
+Standards-Version: 3.9.8
+Homepage: https://github.com/manisandro/gImageReader
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/gimagereader.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/gimagereader.git
+
+Package: gimagereader
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: Graphical GTK+ front-end to tesseract-ocr
+ gImageReader is a simple GTK+ front-end to tesseract-ocr. Tesseract is probably
+ the most accurate open source optical character recognition (OCR) software and
+ can recognize text in over 60 languages.
+ .
+ gImageReader supports automatic page layout detection but the user can also
+ manually define and adjust the recognition regions. It is possible to import
+ images from disk, scanning devices, clipboard and screenshots. gImageReader
+ also supports multipage PDF documents. Recognized text is displayed directly
+ next to the image and basic text editing including search/replace and removing
+ of line breaks is possible. Spellchecking for the output text is also supported
+ if the corresponding dictionaries are installed.

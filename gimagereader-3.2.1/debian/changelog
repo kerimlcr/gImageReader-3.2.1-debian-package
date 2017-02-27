@@ -1,0 +1,92 @@
+gimagereader (3.2.1-1) unstable; urgency=medium
+
+  * new upstream version:
+	- remove all patches as they are merged upstream
+ -- Kerim Ölçer <kerimlcr@gmail.com>  Sun, 26 Feb 2017 08:59:27 -0500
+
+gimagereader (3.2.0-1) unstable; urgency=medium
+
+  * new upstream version:
+    - remove all patches as they are merged upstream
+    - Add builddependencies libjpeg-dev and libpodofo-dev
+  * Bump debhelper compat from 9 to 10 (no changes necessary).
+
+ -- Philip Rinn <rinni@inventati.org>  Thu, 24 Nov 2016 22:17:44 +0100
+
+gimagereader (3.1.91-2) unstable; urgency=medium
+
+  * add debian/patches/02-fix-ftbfs.patch:
+    - Fix FTBFS due to missing implicit bool conversion
+  * Fix typo in doc-base file
+
+ -- Philip Rinn <rinni@inventati.org>  Wed, 28 Sep 2016 19:59:40 +0200
+
+gimagereader (3.1.91-1) unstable; urgency=medium
+
+  * new upstream version (closes: LP: #1579707):
+    - remove all patches as they are merged upstream
+  * add debian/patches/01-catch-segfaults-tesseract.patch:
+    - catch deliberate segfaults created by tesseract
+  * update debian/copyright
+  * Bump Standards-Version to 3.9.8 (no changes necessary)
+
+ -- Philip Rinn <rinni@inventati.org>  Mon, 13 Jun 2016 19:49:08 +0200
+
+gimagereader (3.1.2+git368fa8f-2) unstable; urgency=medium
+
+  * add debian/patches/02-make_build_reproducible.patch:
+    - make build reproducible
+  * Bump Standards-Version to 3.9.7 (no changes necessary)
+  * Use secure URIs for vcs-* in debian/control
+
+ -- Philip Rinn <rinni@inventati.org>  Sat, 27 Feb 2016 15:40:28 +0100
+
+gimagereader (3.1.2+git368fa8f-1) unstable; urgency=medium
+
+  * Pick upstream snapshot (closes: #802391)
+  * update debian/copyright
+
+ -- Philip Rinn <rinni@inventati.org>  Sat, 31 Oct 2015 20:15:29 +0100
+
+gimagereader (3.1.2-1) unstable; urgency=medium
+
+  * new upstream version (closes: #785656, #794489)
+  * update debian/copyright
+  * fix spelling errors in debian/control
+
+ -- Philip Rinn <rinni@inventati.org>  Fri, 14 Aug 2015 16:29:02 +0200
+
+gimagereader (3.1-1) unstable; urgency=medium
+
+  * new upstream version
+  * add build dependency: libgtksourceviewmm-3.0-dev
+  * drop patch debian/patches/01-desktop-entry-lacks-keywords-entry.patch
+    - applied upstream
+  * add patch debian/patches/01-fix_build_on_armel.patch:
+    - fix build failure on armel
+  * debian/control: update Vcs-Browser field to use new URL syntax
+  * update debian/copyright
+
+ -- Philip Rinn <rinni@inventati.org>  Tue, 12 May 2015 23:15:14 +0200
+
+gimagereader (3.0.1-1) unstable; urgency=low
+
+  * new upstream version
+  * drop patch debian/patches/02-detect-sane-on-hurd-and-kfreebsd.patch
+    - build system switched to cmake
+  * register documentation with doc-base
+
+ -- Philip Rinn <rinni@inventati.org>  Mon, 20 Apr 2015 00:15:45 +0200
+
+gimagereader (2.93-2) unstable; urgency=low
+
+  * Fix build failure on Hurd and kFreeBSD due to missing check in configure.ac
+  * Bump Standards-Version to 3.9.6 (no changes necessary)
+
+ -- Philip Rinn <rinni@inventati.org>  Mon, 06 Oct 2014 21:01:23 +0200
+
+gimagereader (2.93-1) unstable; urgency=low
+
+  * Initial release (closes: #748350)
+
+ -- Philip Rinn <rinni@inventati.org>  Wed, 20 Aug 2014 00:12:16 +0200
