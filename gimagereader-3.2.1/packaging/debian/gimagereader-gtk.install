@@ -1,0 +1,4 @@
+usr/bin/gimagereader-gtk
+usr/share/appdata/gimagereader-gtk.appdata.xml
+usr/share/applications/gimagereader-gtk.desktop
+usr/share/glib-2.0/schemas/org.gnome.gimagereader.gschema.xml

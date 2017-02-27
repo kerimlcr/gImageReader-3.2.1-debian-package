@@ -1,0 +1,108 @@
+# List of source files containing translatable strings.
+
+[type: gettext/glade]gtk/data/appmenu.ui
+[type: gettext/glade]gtk/data/crashhandler.ui
+[type: gettext/glade]gtk/data/editor_hocr.ui
+[type: gettext/glade]gtk/data/editor_text.ui
+[type: gettext/glade]gtk/data/gimagereader.ui
+gtk/src/Acquirer.cc
+gtk/src/Acquirer.hh
+gtk/src/Application.hh
+gtk/src/common.hh
+gtk/src/Config.cc
+gtk/src/Config.hh
+gtk/src/ConfigSettings.cc
+gtk/src/ConfigSettings.hh
+gtk/src/CrashHandler.cc
+gtk/src/CrashHandler.hh
+gtk/src/Displayer.cc
+gtk/src/Displayer.hh
+gtk/src/DisplayerToolHOCR.cc
+gtk/src/DisplayerToolHOCR.hh
+gtk/src/DisplayerToolSelect.cc
+gtk/src/DisplayerToolSelect.hh
+gtk/src/DisplayRenderer.cc
+gtk/src/DisplayRenderer.hh
+gtk/src/FileDialogs.cc
+gtk/src/FileDialogs.hh
+gtk/src/Geometry.hh
+gtk/src/Image.cc
+gtk/src/Image.hh
+gtk/src/main.cc
+gtk/src/MainWindow.cc
+gtk/src/MainWindow.hh
+gtk/src/OutputBuffer.cc
+gtk/src/OutputBuffer.hh
+gtk/src/OutputEditor.hh
+gtk/src/OutputEditorHOCR.cc
+gtk/src/OutputEditorHOCR.hh
+gtk/src/OutputEditorText.cc
+gtk/src/OutputEditorText.hh
+gtk/src/Recognizer.cc
+gtk/src/Recognizer.hh
+gtk/src/Scanner.hh
+gtk/src/scanner/ScannerSane.cc
+gtk/src/scanner/ScannerSane.hh
+gtk/src/scanner/ScannerTwain.cc
+gtk/src/scanner/ScannerTwain.hh
+gtk/src/SourceManager.cc
+gtk/src/SourceManager.hh
+gtk/src/SubstitutionsManager.cc
+gtk/src/SubstitutionsManager.hh
+gtk/src/TessdataManager.cc
+gtk/src/TessdataManager.hh
+gtk/src/Utils.cc
+gtk/src/Utils.hh
+[type: gettext/qtdesigner]qt/data/AboutDialog.ui
+[type: gettext/qtdesigner]qt/data/ConfigDialog.ui
+[type: gettext/qtdesigner]qt/data/CrashHandler.ui
+[type: gettext/qtdesigner]qt/data/MainWindow.ui
+[type: gettext/qtdesigner]qt/data/PageRangeDialog.ui
+[type: gettext/qtdesigner]qt/data/PdfExportDialog.ui
+qt/src/Acquirer.cc
+qt/src/Acquirer.hh
+qt/src/common.hh
+qt/src/Config.cc
+qt/src/Config.hh
+qt/src/ConfigSettings.cc
+qt/src/ConfigSettings.hh
+qt/src/CrashHandler.cc
+qt/src/CrashHandler.hh
+qt/src/Displayer.cc
+qt/src/Displayer.hh
+qt/src/DisplayerToolHOCR.cc
+qt/src/DisplayerToolHOCR.hh
+qt/src/DisplayerToolSelect.cc
+qt/src/DisplayerToolSelect.hh
+qt/src/DisplayRenderer.cc
+qt/src/DisplayRenderer.hh
+qt/src/main.cc
+qt/src/MainWindow.cc
+qt/src/MainWindow.hh
+qt/src/OutputEditor.cc
+qt/src/OutputEditor.hh
+qt/src/OutputEditorHOCR.cc
+qt/src/OutputEditorHOCR.hh
+qt/src/OutputEditorText.cc
+qt/src/OutputEditorText.hh
+qt/src/OutputTextEdit.cc
+qt/src/OutputTextEdit.hh
+qt/src/Recognizer.cc
+qt/src/Recognizer.hh
+qt/src/Scanner.cc
+qt/src/Scanner.hh
+qt/src/scanner/ScannerSane.cc
+qt/src/scanner/ScannerSane.hh
+qt/src/scanner/ScannerTwain.cc
+qt/src/scanner/ScannerTwain.hh
+qt/src/SourceManager.cc
+qt/src/SourceManager.hh
+qt/src/SubstitutionsManager.cc
+qt/src/SubstitutionsManager.hh
+qt/src/TessdataManager.cc
+qt/src/TessdataManager.hh
+qt/src/Ui_MainWindow.hh
+qt/src/Ui_OutputEditorHOCR.hh
+qt/src/Ui_OutputEditorText.hh
+qt/src/Utils.cc
+qt/src/Utils.hh

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.gimagereader" path="/org/gnome/gimagereader/" gettext-domain="gimagereader">
+        <key type="i" name="outputorient">
+            <default>1</default>
+            <summary>Output pane orientation</summary>
+            <description>Output pane orientation.</description>
+        </key>
+        <key type="b" name="systemoutputfont">
+            <default>true</default>
+            <summary>Whether to use the system default font in the output pane</summary>
+            <description>Whether to use the system default font in the output pane.</description>
+        </key>
+        <key type="s" name="customoutputfont">
+            <default>"Sans 10"</default>
+            <summary>Output pane font</summary>
+            <description>Output pane font.</description>
+        </key>
+        <key type="b" name="showcontrols">
+            <default>false</default>
+            <summary>Show advanced controls</summary>
+            <description>Show advanced controls.</description>
+        </key>
+        <key type="b" name="dictinstall">
+            <default>true</default>
+            <summary>Autoinstall missing spelling dictionaries</summary>
+            <description>Autoinstall missing spelling dictionaries.</description>
+        </key>
+        <key type="b" name="updatecheck">
+            <default>true</default>
+            <summary>Automatically check for updates</summary>
+            <description>Automatically check for updates.</description>
+        </key>
+        <key type="s" name="language">
+            <default>"eng:en_EN"</default>
+            <summary>Default recongition language</summary>
+            <description>Default recongition language.</description>
+        </key>
+        <key type="s" name="customlangs">
+            <default>""</default>
+            <summary>Custom language definitions</summary>
+            <description>Custom language definitions.</description>
+        </key>
+        <key type="i" name="scanres">
+            <default>150</default>
+            <summary>Scanning resolution</summary>
+            <description>Scanning resolution in dpi.</description>
+        </key>
+        <key type="i" name="scandev">
+            <default>0</default>
+            <summary>Scanning device</summary>
+            <description>Scanning device.</description>
+        </key>
+        <key type="i" name="scanmode">
+            <default>0</default>
+            <summary>Scanning mode</summary>
+            <description>Scanning mode.</description>
+        </key>
+        <key type="s" name="scanoutput">
+            <default>""</default>
+            <summary>Output path for scanned files</summary>
+            <description>Output path for scanned files.</description>
+        </key>
+        <key type="ai" name="wingeom">
+            <default>[0,0,640,480]</default>
+            <summary>Window geometry</summary>
+            <description>Window geometry.</description>
+        </key>
+        <key type="b" name="keepdot">
+            <default>true</default>
+            <summary>Keep line break if preceded by dot</summary>
+            <description>Keep line break if preceded by dot.</description>
+        </key>
+        <key type="b" name="keepquote">
+            <default>false</default>
+            <summary>Keep line break if preceded by quote</summary>
+            <description>Keep line break if preceded by quote.</description>
+        </key>
+        <key type="b" name="joinhyphen">
+            <default>true</default>
+            <summary>Join word split by hypen</summary>
+            <description>Join word split by hyphen.</description>
+        </key>
+        <key type="b" name="joinspace">
+            <default>true</default>
+            <summary>Clean whitespace</summary>
+            <description>Clean whitespace.</description>
+        </key>
+        <key type="b" name="keepparagraphs">
+            <default>true</default>
+            <summary>Preserve paragraphs</summary>
+            <description>Preserve paragraphs.</description>
+        </key>
+        <key type="b" name="drawwhitespace">
+            <default>false</default>
+            <summary>Draw whitespace</summary>
+            <description>Draw whitespace.</description>
+        </key>
+        <key type="i" name="ocrregionstrategy">
+            <default>0</default>
+            <summary>OCR Page Region Strategy</summary>
+            <description>Whether to recognize the entire page or peform page layout autodetection.</description>
+        </key>
+        <key type="s" name="replacelist">
+            <default>""</default>
+            <summary>Replacement list</summary>
+            <description>List of search-replace strings.</description>
+        </key>
+        <key type="s" name="replacelistfile">
+            <default>""</default>
+            <summary>Path of replacement list</summary>
+            <description>Path of replacement list.</description>
+        </key>
+        <key type="s" name="selectionsavefile">
+            <default>""</default>
+            <summary>Path for saving selections</summary>
+            <description>Path for saving selections.</description>
+        </key>
+        <key type="b" name="searchmatchcase">
+            <default>false</default>
+            <summary>Match case when searching</summary>
+            <description>Match case when searching.</description>
+        </key>
+        <key type="s" name="outputdir">
+            <default>""</default>
+            <summary>Output directory for OCR output</summary>
+            <description>Output directory for OCR output.</description>
+        </key>
+        <key type="i" name="psm">
+            <default>6</default>
+            <summary>Page segmentation mode</summary>
+            <description>Page segmentation mode.</description>
+        </key>
+        <key type="i" name="outputeditor">
+            <default>0</default>
+            <summary>Default output editor</summary>
+            <description>Default output editor.</description>
+        </key>
+        <key type="i" name="pdfexportmode">
+            <default>0</default>
+            <summary>PDF export mode</summary>
+            <description>PDF export mode.</description>
+        </key>
+        <key type="s" name="pdffont">
+            <default>"Sans 10"</default>
+            <summary>Font to use for PDFs</summary>
+            <description>Font to use for PDFs.</description>
+        </key>
+        <key type="b" name="pdfusedetectedfontsizes">
+            <default>true</default>
+            <summary>Use detected font sizes in PDFs</summary>
+            <description>Whether to use detected font sizes when generating PDFs.</description>
+        </key>
+        <key type="b" name="pdfuniformizelinespacing">
+            <default>false</default>
+            <summary>Uniformize line spacing</summary>
+            <description>Whether to uniformize line spacing when generating PDFs.</description>
+        </key>
+        <key type="i" name="pdfpreservespaces">
+            <default>4</default>
+            <summary>Preserve spaces wider than</summary>
+            <description>Preserve spaces wider than the specified number of characters when generating PDFs with uniformized spacing.</description>
+        </key>
+        <key type="i" name="pdfimageformat">
+            <default>0</default>
+            <summary>Image color format for PDF output</summary>
+            <description>Image color format for PDF output: color (0), grayscale (1) or monochrome (2).</description>
+        </key>
+        <key type="i" name="pdfimagecompression">
+            <default>0</default>
+            <summary>Compression for images in PDF output</summary>
+            <description>Compression for images in PDF output: Zip (0) or Jpeg (1).</description>
+        </key>
+        <key type="i" name="pdfimagecompressionquality">
+            <default>90</default>
+            <summary>Compression quality for images in PDF output</summary>
+            <description>Compression quality for images in PDF output: [0-100].</description>
+        </key>
+        <key type="b" name="pdfpreview">
+            <default>false</default>
+            <summary>Whether to display a preview when exporting to PDF</summary>
+            <description>Whether to display a preview when exporting to PDF.</description>
+        </key>
+        <key type="i" name="datadirs">
+            <default>0</default>
+            <summary>Where to look for tessdata and spelling files</summary>
+            <description>Whether to look in system-wide (0) or user paths (1) for tessdata and spelling files.</description>
+        </key>
+        <key type="i" name="pdffontscale">
+            <default>100</default>
+            <summary>Scaling factor for detected font sizes</summary>
+            <description>Scaling factor for detected font sizes.</description>
+        </key>
+        <key type="i" name="pdfimagedpi">
+            <default>300</default>
+            <summary>Resolution at which to export images in the PDF</summary>
+            <description>Resolution at which to export images in the PDF.</description>
+        </key>
+        <key type="i" name="pdfimageconversionflags">
+            <default>0</default>
+            <summary>Image conversion flags</summary>
+            <description>Image conversion flags.</description>
+        </key>
+    </schema>
+</schemalist>
